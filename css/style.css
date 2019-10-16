@@ -11,6 +11,8 @@ body {
 	min-height: 100%;
 	background: #fff;
 	color: #7a7a7a;
+	font-size: 18px;
+	line-height: 2;
 	font-family: 'Lato', sans-serif;
 }
 .container {
@@ -22,13 +24,16 @@ body {
 }
 p {
 	padding: 10px 120px;
-	font-size: 18px;
-	line-height: 2;
 	text-align: justify;
 }
-.italic {
+blockquote {
 	font-size: 24px;
 	font-style: italic;
+	padding: 0 80px;
+}
+blockquote:first-child {
+	font-size: 600px;
+	color: red;
 }
 b {
 	font-size: 60px;
@@ -39,7 +44,7 @@ h1 {
 	color: #171717;
 	font-family: 'Playfair Display', serif;
 }
-span {
+p:first-child:first-letter {
 	font-family: 'Playfair Display', serif;
 	display: block;
 	text-transform: uppercase;
